@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>To-Do List App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>To-Do List</h2>
+        <div class="input-section">
+            <input id="todoInput" type="text" placeholder="Enter task">
+
+            <select id="category">
+                <option value="HIGH">HIGH</option>
+                <option value="MEDIUM">MEDIUM</option>
+                <option value="LOW">LOW</option>
+            </select>
+
+            <button onclick="addTask()">ADD IT</button>
+        </div>
+
+        <h3 style="margin-top:20px;">Tasks to be completed soon</h3>
+        <div id="taskList"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
